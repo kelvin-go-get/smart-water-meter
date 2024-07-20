@@ -1,0 +1,76 @@
+/* Styles for the entire application container */
+.app-container {
+  position: relative;
+  min-height: 100vh;
+  background-image: url("../src/assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.app-container::before {
+  content: "";
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.app-container > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Styles for the navbar */
+.navbar {
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 12px 12px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  position: relative;
+  margin-left: 40px;
+  margin-right: 40px;
+
+  padding: 40px;
+  z-index: 1000;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  padding: 20px;
+  color: black !important; /* Make the text black */
+}
+
+/* Styles for the form container */
+.card {
+  /* Adjust the color and opacity as needed */
+  backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add some shadow */
+  padding-right: 40px;
+}
+
+/* Additional utility classes for spacing */
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.form-container {
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

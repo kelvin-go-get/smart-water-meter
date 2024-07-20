@@ -1,0 +1,13 @@
+.flex-container {
+  display: flex;
+  gap: 1rem; /* Adjust as needed */
+  margin: 1rem 0; /* Adjust as needed */
+  /* Additional styling if needed */
+}
+
+/* Optional: Add responsive styling if needed */
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}

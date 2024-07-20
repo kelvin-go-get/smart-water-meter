@@ -1,0 +1,38 @@
+/* AddMeter.css */
+
+/* Container for the form */
+.addMeter-form {
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  background-color: white;
+}
+
+/* Style for form control */
+.form-control {
+  margin-bottom: 15px;
+}
+
+/* Style for submit button */
+.submit-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+/* Style for alerts */
+.alert {
+  margin-top: 20px;
+  border-radius: 5px;
+}
